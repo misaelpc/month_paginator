@@ -14,6 +14,8 @@
 		0C90280121B1F54C007F1EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9027FF21B1F54C007F1EE8 /* LaunchScreen.storyboard */; };
 		0C90280C21B1F54C007F1EE8 /* MonthProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C90280B21B1F54C007F1EE8 /* MonthProjectTests.swift */; };
 		0C90281721B1F54C007F1EE8 /* MonthProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C90281621B1F54C007F1EE8 /* MonthProjectUITests.swift */; };
+		0C90282521B1F6AA007F1EE8 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C90282421B1F6AA007F1EE8 /* DataViewController.swift */; };
+		0CD5AC4421B1FA1A00F645BD /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5AC4321B1FA1A00F645BD /* ModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0C90281221B1F54C007F1EE8 /* MonthProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonthProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C90281621B1F54C007F1EE8 /* MonthProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthProjectUITests.swift; sourceTree = "<group>"; };
 		0C90281821B1F54C007F1EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C90282421B1F6AA007F1EE8 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		0CD5AC4321B1FA1A00F645BD /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				0C9027FD21B1F54C007F1EE8 /* Assets.xcassets */,
 				0C9027FF21B1F54C007F1EE8 /* LaunchScreen.storyboard */,
 				0C90280221B1F54C007F1EE8 /* Info.plist */,
+				0C90282421B1F6AA007F1EE8 /* DataViewController.swift */,
+				0CD5AC4321B1FA1A00F645BD /* ModelController.swift */,
 			);
 			path = MonthProject;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C9027F921B1F547007F1EE8 /* ViewController.swift in Sources */,
+				0CD5AC4421B1FA1A00F645BD /* ModelController.swift in Sources */,
+				0C90282521B1F6AA007F1EE8 /* DataViewController.swift in Sources */,
 				0C9027F721B1F547007F1EE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
